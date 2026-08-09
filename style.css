@@ -380,12 +380,9 @@ li:hover{
 }
 
 .items-intro{
-    color: var(--primary-color--);
-}
-
-.items-intro{
     text-align: center;
     font-size: clamp(1.125rem, 0.841rem + 1.42vw, 1.75rem);
+    color: var(--primary-color--);
 }
 
 .items-list>ul{
@@ -510,47 +507,48 @@ li:hover{
 /* section 4 */
 
 .section4{
-    margin-top: 68px;
+    padding-top: 24px;
 }
 
 .section4-img{
     background-image: url(section4-img.png);
     background-size: cover;
     background-position: center;
-    position: relative;
-    width: 1256px;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .section4-text{
     color: var(--primary-color--);
     font-family: "playfair-display";
-    position: absolute;
-    width: 400px;
+    width: 100%;
     height: auto;
-    top: 100px;
-    left: 100px;
+    padding: 10% 0 10% 10%;
 }
 
 .discount{
     background-color: var(--hero-heading-color--);
-    padding: 8px 4px 8px 4px;
+    padding: 8px 4px ;
     border-radius: 8px;
     box-shadow: 2px 2px 8px rgb(168, 167, 167);
 }
 
-.section4-text>h2{
-    font-size: 28px;
-    line-height: 50px;
+.section4-text>h3{
+    line-height: 30px;
     margin: 0 0 12px 0;
+    font-size: clamp(1rem, 0.886rem + 0.57vw, 1.25rem);
 }
+
+.section4-text> p{
+        width: 60%;
+    }
 
 .section4-btn{
     margin-top: 20px;
     color: var(--navbar-back-color--);
     border: none;
     background-color: var(--primary-color--);
-    padding: 10px 8px 10px 8px;
+    padding: 10px 8px ;
     border-radius: 6px;
 }
 
@@ -605,6 +603,12 @@ li:hover{
         height: 300px;
         margin: 12px;
     }
+    .section4-img{
+        background-position: left;
+    }
+    .section4-text>p{
+        width: 70%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -633,6 +637,9 @@ li:hover{
     "s2 img "
     "s4 s5";
     }
+    .section4-img{
+        background-position: left;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -643,5 +650,8 @@ li:hover{
     "s1 img "
     "s2 img "
     "s4 s5";
+    }
+    .section4-text>p{
+        width: 40%;
     }
 }
