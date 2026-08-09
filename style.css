@@ -675,6 +675,14 @@ li:hover{
     .section4-text>p{
         width: 70%;
     }
+    .review-card{
+        flex-flow: column;
+        align-items: center;
+    }
+    .review-img{
+        width: 90%;
+        background-position: top;
+    }
     
 }
 
