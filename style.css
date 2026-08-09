@@ -618,6 +618,67 @@ li:hover{
     font: bold 16px "playfair display";
 }
 
+/* section 6 */
+
+.section6{
+    width: 1260px;
+    height: 400px;
+}
+
+.section6-img{
+    background-image: url("images/section6-img.png");
+    background-position: center;
+    background-size: cover;
+    margin: 74px 0 0 0;
+}
+
+.section6-content{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section6-text{
+    background-color:  rgba(214, 214, 214, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 0.5px solid rgb(150, 150, 150);
+    width: 600px;
+    height: auto;
+    text-align: center;
+}
+
+.section6-text>h3{
+    color: var(--secondry-color--);
+    font: bold 38px "playfair display";
+    margin: 24px 0 14px 0;
+}
+
+.section6-text>p{
+    color: var(--muted-text-color--);
+    font: 14px "playfair display";
+}
+
+.section6-text>input{
+    padding: 10px 140px 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font: 12px "playfair display";
+}
+
+.section6-text>button{
+    color: var(--navbar-back-color--);
+    background-color: var(--primary-color--);
+    padding: 11px 18px 11px 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 34px 0 24px 0;
+    font: 12px "playfair display";
+}
+
+
 @media (max-width: 480px) {
     .menu-icon{
         display: block;
