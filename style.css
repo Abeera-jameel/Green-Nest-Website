@@ -552,6 +552,72 @@ li:hover{
     border-radius: 6px;
 }
 
+/* section 5 */
+
+.section5-h2{
+    color: var(--primary-color--);
+    font-weight: 700;
+    font-size: clamp(1.125rem, 0.841rem + 1.42vw, 1.75rem);
+    font-family: "playfair display";
+    text-align: center;
+    margin: 44px 0 0px 0;
+}
+
+.reviews{
+    margin: 44px 24px 0 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    gap: 14px;
+    height: 210px;
+}
+
+.review-text{
+    max-width: 300px;
+    width: auto;
+    margin: 24px 12px ;
+    color: var(--bold-text-color--);
+    font: 13px "playfair display";
+}
+
+.review-card{
+    background-color: var(--items-back-color--);
+    box-shadow: 2px 2px 8px lightgrey;
+    display: flex;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+}
+
+.review-img{
+    background-position: top;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.review-img1{
+    background-image: url("review1.jpg");
+}
+
+.review-img2{
+    background-image: url("review2.jpg");
+}
+
+.rating-star{
+    display: flex;
+    color: var(--rating-color--);
+    font: 12px "playfair display";
+    margin: 12px 0 12px 0;
+}
+
+.review-text>h4{
+    margin: 12px 0 2px 0;
+    font: bold 16px "playfair display";
+}
+
 @media (max-width: 480px) {
     .menu-icon{
         display: block;
@@ -609,6 +675,7 @@ li:hover{
     .section4-text>p{
         width: 70%;
     }
+    
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
