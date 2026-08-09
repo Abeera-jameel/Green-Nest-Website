@@ -204,7 +204,7 @@ li:hover{
 .section1-part1{
     color: var(--primary-color--);
     font-weight: 700;
-    font-size: clamp(1.125rem, 0.67rem + 2.27vw, 2.125rem);
+    font-size: clamp(1.125rem, 0.841rem + 1.42vw, 1.75rem);
     font-family: "playfair display";
     margin: 44px 0 10px 0;
 }
@@ -359,6 +359,152 @@ li:hover{
     padding: 6px 14px ;
     border-radius: 20px;
     margin: 10px 0 4px 0;
+}
+
+/* section 3 */
+
+.section3{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 44px;
+}
+
+.section3-items{
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+    margin: 40px 0 0 0;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+
+.items-intro{
+    color: var(--primary-color--);
+}
+
+.items-intro{
+    text-align: center;
+    font-size: clamp(1.125rem, 0.841rem + 1.42vw, 1.75rem);
+}
+
+.items-list>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    color: var(--bold-text-color--);
+    font: 600 12px "playfair display";
+    margin: 14px 0 0px 0;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: var(--items-back-color--);
+    width: 220px;
+    height: 240px;
+    box-shadow: 2px 2px 8px lightgrey;
+    border-radius: 6px;
+    position: relative;
+    margin: 90px 0 0 0;
+}
+
+.item-img{
+    width: 200px;
+    height: 240px;
+    position: absolute;
+    top: -60px;
+}
+
+.item1-img{
+    background: url('peace lily.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item2-img{
+    background: url('Philodendron.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item3-img{
+    background: url('Caladium.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item4-img{
+    background: url('ZZ Plant.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item5-img{
+    background: url('Ficus Lyrata.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item6-img{
+    background: url('Anthurium.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item7-img{
+    background: url('Pothos.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item8-img{
+    background: url('Rubber Plant.jpg');
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-description{
+    position: absolute;
+    bottom: 15px;
+    margin: 0 0 4px 0;
+}
+
+.item-price{
+    display: flex;
+    align-items: flex-end;
+    font: 14px "playfair display";
+    color: var(--bold-text-color--);
+}
+
+.item-name{
+    color: var(--primary-color--);
+    text-align: center;
+}
+
+.strike-through-price{
+    color: var(--muted-text-color--);
+    font-size: 10px;
+    margin-right: 6px;
+}
+
+.explore-btn{
+    background-color: var(--hero-heading-color--);
+    color: var(--primary-color--);
+    font: 12px "playfair display";
+    margin: 44px 0 0 0;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid var(--primary-color--);
+    border-radius: 4px;
 }
 
 
