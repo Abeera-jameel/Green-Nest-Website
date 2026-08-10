@@ -559,8 +559,11 @@ li:hover{
     font-weight: 700;
     font-size: clamp(1.125rem, 0.841rem + 1.42vw, 1.75rem);
     font-family: "playfair display";
-    text-align: center;
     margin: 44px 0 0px 0;
+}
+
+.section5-h2{
+    text-align: center;
 }
 
 .reviews{
@@ -680,6 +683,96 @@ li:hover{
     border-radius: 8px;
     margin: 34px 0 24px 0;
     font: 12px "playfair display";
+}
+
+/* section 7 */
+
+.section7-text{
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: clamp(1.125rem, 0.841rem + 1.42vw, 1.75rem);
+}
+
+.section7-all-cards{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    gap: 12px;
+    margin-top: 44px;
+}
+
+.section7-card{
+    width: 250px;
+    height: 380px;
+    background-color: var(--items-back-color--);
+    box-shadow: 2px 2px 8px lightgrey;
+    border-radius: 6px;
+}
+
+.section7-card1-img{
+    background-image: url("section7-card1-img.jpg");
+}
+
+.section7-card2-img{
+    background-image: url("section7-card2-img.jpg");
+}
+
+.section7-card3-img{
+    background-image: url("section7-card3-img.webp");
+}
+
+.section7-card4-img{
+    background-image: url("section7-card4-img.jpg");
+}
+
+.section7-card-img{
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.section7-card-text{
+    font: 14px "playfair display";
+    width: 230px;
+    padding: 12px 10px 14px 10px;
+}
+
+.section7-card-date{
+    color: var(--muted-text-color--);
+}
+
+.section7-card-text>h4{
+    color: var(--primary-color--);
+    font-size: 16px;
+    margin: 2px 0 10px 0;
+}
+
+.section7-p{
+    color: var(--bold-text-color--);
+    font-size: 12px;
+    margin: 0 0 8px 0;
+}
+
+.section7-btn-read-more{
+    border: none;
+    background-color: var(--primary-color--);
+    color: var(--navbar-back-color--);
+    font: 12px "playfair display";
+    padding: 6px 16px 6px 16px;
+    border-radius: 4px;
+}
+
+.section7-explore-more{
+    text-align: center;
+}
+
+.section7-explore-btn{
+    margin: 22px 0 0 0;
 }
 
 
